@@ -1,7 +1,7 @@
 
 **Praca projektowa technologie internetowe**
 
-_Zegar z funkcją alarmu_
+**_Zegar z funkcją alarmu_**
 
 - **Zdefiniowanie problemu do realizacji**
 
@@ -28,17 +28,11 @@ Struktura HTML, CSS i JS:
   - Modal: Ten element, o identyfikatorze myModal, zaprezentuje okno modalne, które pojawi się na ekranie w momencie aktywacji alarmu. Będzie to rodzaj powiadomienia dla użytkownika (Rysunek 2.).
   - Media Query: Zdefiniuje dodatkowe style dla urządzeń o szerokości ekranu mniejszej niż 600 pikseli. Zmniejszy padding dla kontenera .container i dostosuje szerokość elementów formularza oraz przycisków, aby lepiej skalować się na mniejszych ekranach (Rysunek 3).
 
+![Wygląd aplikacji](img/img1.png)
 
+![Wygląd aplikacji](img/img2.png)
 
-Rysunek 1.
-
-
-
-Rysunek 2.
-
-
-
-Rysunek 3.
+![Wygląd aplikacji](img/img3.png)
 
 - JavaScript dla strony głównej:
   - getAlarms: Będzie tworzyć funkcję getAlarms(), która będzie zwracać obietnicę. Będzie sprawdzać, czy istnieją zapisane alarmy w localStorage i będzie rozwiązywać obietnicę z tablicą alarmów lub odrzucać ją w przypadku błędu. Funkcja będzie pobierać alarmy z localStorage
@@ -49,16 +43,12 @@ Rysunek 3.
   - showModal(): Będzie określać funkcję showModal(), która będzie wyświetlała okno po wybiciu godziny alarmu. Okno modalne będzie zamykane po kliknięciu przycisku "x" lub po kliknięciu na obszarze poza oknem.
   - displayAlarms(): Będzie automatycznie wywoływać funkcję displayAlarms() po załadowaniu strony, aby wyświetlić aktualną listę alarmów.
 
-
-
-Rysunek 4.
+![Wygląd aplikacji](img/img4.png)
 
 - Podstrona z alarmami:
   - Jeśli użytkownik na stronie głównej naciśnie przycisk „Zobacz alarmy", w nowej karcie wyświetli się podstrona z alarmami, która będzie wyświetlać listę alarmów. Jest to pusty element, który zostanie wypełniony dynamicznie za pomocą JavaScript (Rysunek 5).
 
-
-
-Rysunek 5.
+![Wygląd aplikacji](img/img5.png)
 
 - JavaScript dla podstrony:
   - Będzie pobierał element HTML o identyfikatorze "alarms-list" i przypisywał go do zmiennej alarmsList.
@@ -75,15 +65,11 @@ Rysunek 5.
 
 Kod został opatrzony dokumentacją JSDoc, co ułatwia zrozumienie jego funkcji i działania (Rysunek 6). Każda funkcja jest opisana za pomocą adnotacji @function, a także poszczególne parametry są opisane, co ułatwia korzystanie z tych funkcji. Na przykład, funkcja updateTime aktualizuje obecną godzinę na stronie, a getAlarms pobiera listę alarmów z lokalnego magazynu. Podobnie, funkcja removeAlarm usuwa wybrany alarm, a setAlarm ustawia nowy alarm na podstawie danych wprowadzonych przez użytkownika. Funkcja displayAlarms wyświetla listę alarmów na stronie, a toggleAlarm zmienia stan aktywności wybranego alarmu. Dodatkowo, funkcja showModal pokazuje okno modalne, a closeModal zamyka je. Ostatnio, window.onclick obsługuje kliknięcie myszy poza oknem modalnym, ukrywając je w takim przypadku. Dzięki tej dokumentacji, programiści mogą szybko zrozumieć działanie kodu i korzystać z jego funkcji w sposób bardziej efektywny.
 
-
-
-Rysunek 5.
+![Wygląd aplikacji](img/img6.png)
 
 Dokumentacja CSS w postaci KSS (Keep Simple Stylesheets) została również stworzona, co pozwala na łatwiejsze zrozumienie i zarządzanie stylami. Każdy fragment kodu został opisany, zawierając informacje na temat jego zastosowania i efektów. Na przykład, dla sekcji "Ciało strony" określono, że tło jest w białym kolorze, a marginesy i wewnętrzne odstępy są usuwane. Analogicznie, dla sekcji formularza określono, że etykiety (label) formularza są ustawione jako bloki i mają odstęp na dole. Dzięki takiemu podejściu dokumentacyjnemu, zarówno programiści, jak i projektanci mogą łatwiej zrozumieć i korzystać z stylów CSS w projekcie.
 
-
-
-Rysunek 6. Zdjęcie poglądowe KSS
+![Wygląd aplikacji](img/img7.png)
 
 - **Linki do źródeł**
 
@@ -94,9 +80,7 @@ Rysunek 6. Zdjęcie poglądowe KSS
 
 - **Raport SEO**
 
-
-
-Rysunek 7. Raport SEO
+![Wygląd aplikacji](img/seo.png)
 
 **Raport SEO**
 
